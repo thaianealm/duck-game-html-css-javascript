@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-image: url('../img/background.png');
+    background-size: cover;
+}
+
+.game-score{
+    margin-top: 117px;
+    margin-right: 325px;
+}
+
+h1{
+    margin-top: 3%;
+    font-size: 25pt;
+}
+
+p{
+    margin-top: 1%;
+    margin-bottom: 6%;
+    font: 500 18pt sans-serif;
+}
+
+.instructions{
+    width: 300px;
+    margin-top: 1%;
+    margin-right: 235px;
+    color: rgb(0, 0, 0);
+    border: 2px solid orange;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.p-instructions{
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgba(0, 166, 231, 0.795);
+}
+
+.keyboard-arrow{
+    margin-top: -45px;
+}
